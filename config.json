@@ -1,0 +1,6 @@
+{
+    "cnc_address": "0.0.0.0",
+    "cnc_port": 30120,
+    "web_address": "0.0.0.0",
+    "web_port": 80
+}
