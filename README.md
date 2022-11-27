@@ -16,6 +16,7 @@ Completely written in python3, made just for learning purposes, I'm not responsi
 ## Installation
 
 [Command and control (CNC)](https://en.wikipedia.org/wiki/Command_and_control) server made for linux, but should be working also on windows machines
+
 Bot script tested and working for both operating systems
 
 Install the python requirements
@@ -58,7 +59,7 @@ After all of this, our Botnet is ready to work
 Run CNC server with:
 ```
 cd server
-python3 cnc.py
+sudo python3 cnc.py
 ```
 Use the following commands to control bots:
 | COMMAND | EXPLANATION |
